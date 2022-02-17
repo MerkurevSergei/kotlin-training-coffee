@@ -8,11 +8,11 @@
 		<version>2.6.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>ru.merkurev</groupId>
-	<artifactId>kotlin-training-coffee</artifactId>
+	<groupId>ru.merkurev.kotlin.training.coffee</groupId>
+	<artifactId>machine</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>kotlin-training-coffee</name>
-	<description>Kotlin training project. Coffee Market</description>
+	<name>machine</name>
+	<description>Kotlin Training. Machines Interfaces</description>
 	<properties>
 		<java.version>17</java.version>
 		<kotlin.version>1.6.10</kotlin.version>

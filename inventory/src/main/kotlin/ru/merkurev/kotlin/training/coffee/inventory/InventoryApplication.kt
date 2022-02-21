@@ -1,11 +1,11 @@
-package ru.merkurev.kotlin.training.coffee.disovery
+package ru.merkurev.kotlin.training.coffee.inventory
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class DisoveryApplication
+class InventoryApplication
 
 fun main(args: Array<String>) {
-	runApplication<DisoveryApplication>(*args)
+	runApplication<InventoryApplication>(*args)
 }

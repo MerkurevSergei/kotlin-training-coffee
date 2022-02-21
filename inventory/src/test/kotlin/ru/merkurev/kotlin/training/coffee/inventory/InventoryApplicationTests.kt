@@ -1,10 +1,10 @@
-package ru.merkurev.kotlin.training.coffee.disovery
+package ru.merkurev.kotlin.training.coffee.inventory
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class DisoveryApplicationTests {
+class InventoryApplicationTests {
 
 	@Test
 	fun contextLoads() {

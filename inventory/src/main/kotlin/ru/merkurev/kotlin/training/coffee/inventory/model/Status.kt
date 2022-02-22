@@ -2,7 +2,11 @@ package ru.merkurev.kotlin.training.coffee.inventory.model
 
 /**
  * Состояние кофемашины.
+ * DEPLOYMENT - подготовка к эскплуатации
+ * DISPOSED - выбыло из эксплуатации
+ * MAINTENANCE - обслуживание / ремонт
+ * UTILIZATION - в эксплуатации
  */
 enum class Status {
-    NEW, MAINTENANCE, REPAIR, COMMISSIONED, DECOMMISSIONED
+    DEPLOYMENT, DISPOSED, MAINTENANCE, UTILIZATION
 }
